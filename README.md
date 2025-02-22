@@ -1,0 +1,3 @@
+# Node.js Server Hang Issue
+
+This repository demonstrates a common issue in Node.js servers where long-running requests can cause the server to hang and become unresponsive.  The example uses a simple Express.js server with a request that simulates a 10-second delay.  This delay blocks the event loop, preventing other requests from being processed.  The solution provides a fix using async/await and promises.
